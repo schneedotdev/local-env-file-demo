@@ -25,7 +25,7 @@ This project is configured to use **1Password Environments**. Your task is to on
 
 ## 3. Install dependencies
 
-Within your terminal, navigate to the `group-a` directory and install the project's dependencies:
+From the `group-a` directory:
 
 ```bash
 npm install
@@ -33,7 +33,7 @@ npm install
 
 ## 4. Run the project
 
-Now you can run the project:
+You can now run the project:
 
 ```bash
 npm start
