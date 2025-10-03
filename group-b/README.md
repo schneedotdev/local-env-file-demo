@@ -33,14 +33,12 @@ Now it's time to adopt the new tool.
 
 Throughout the migration, this program will validate required variables, report any that are missing or misconfigured, and confirm a successful database connection once everything is set.
 
-Start by updating the `start` script in `package.json`
+Start by updating the `start` script in `package.json`. Remove the **op** CLI usage:
 
 ```json
-{
-  ...
+"scripts": {
   "start": "node index.js"
-  ...
-}
+},
 ```
 
 Now use the public documentation to configure a new **1Password Environment**. Once configured, run the project again to verify that it starts successfully with secrets delivered from the Environment.
