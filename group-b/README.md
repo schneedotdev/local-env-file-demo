@@ -17,7 +17,7 @@ From the `group-b` directory:
 npm install
 ```
 
-## 4. Run the project
+## 3. Run the project
 
 You can now run the project:
 
@@ -27,7 +27,7 @@ npm start
 
 If you have access to the shared vault, the project should run and connect to the database, assuming the required environment variables are available.
 
-## 5. Adopt Environments
+## 4. Adopt Environments
 
 Now it's time to adopt the new tool.
 
